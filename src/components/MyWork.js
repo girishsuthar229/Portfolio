@@ -2,6 +2,7 @@
 import React, { Fragment, useEffect } from 'react'
 import { BsLaptop } from 'react-icons/bs';
 import { AiFillGithub } from 'react-icons/ai';
+import logo71 from "../portfolio-images/71nestassist.png";
 import logo11 from "../portfolio-images/11BookStore.png";
 import logo21 from "../portfolio-images/24ContactBook.png";
 import logo31 from "../portfolio-images/31Back-End.png";
@@ -31,6 +32,21 @@ function MyWork() {
                     </div>
                     <hr></hr>
                     <div className="row">
+                        <div className="col-md-4 text-center my-2">
+                            <div id="carouselExampleControls1" className="carousel slide my-1" data-bs-ride="carousel">
+                                <div className="carousel-inner">
+                                    <div className="carousel-item active">
+                                        <img src={logo71} className="d-block w-100" alt="..." />
+                                    </div>
+                                </div>
+                            </div>
+                            <h5 className="ff-jose my-1">NestAssist Services</h5>
+                            <div className="row d-flex justify-content-center">
+                                <a href="https://nestassist.vercel.app/" className="col-sm-12 col-md-5 portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank"><BsLaptop /> Watch Live</a>
+                                <a href="https://github.com/girishsuthar229/nestassist-frontend" className="col-sm-12 col-md-5 portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank" rel="noreferrer"><AiFillGithub /> Source Code</a>
+                            </div>
+                        </div>
+        
                         <div className="col-md-4 text-center my-2">
                             <div id="carouselExampleControls1" className="carousel slide my-1" data-bs-ride="carousel">
                                 <div className="carousel-inner">
